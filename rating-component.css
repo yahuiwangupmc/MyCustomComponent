@@ -1,0 +1,28 @@
+.formio-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.formio-rating-button {
+  padding: 0 0.1rem;
+  border: 0;
+  background: transparent;
+  color: #b8b8b8;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.formio-rating-button.is-active {
+  color: #f5a623;
+}
+
+.formio-rating-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.formio-rating-button:disabled {
+  cursor: default;
+}
+
